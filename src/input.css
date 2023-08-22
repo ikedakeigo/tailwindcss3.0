@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.easy-button{
+  padding: 8px 16px;
+  background-color: #467ef7;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.easy-button:hover{
+  background-color: #1d5ed4;
+}
