@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.easy-button{
-  padding: 8px 16px;
-  background-color: #467ef7;
-  color: #fff;
-  border-radius: 4px;
-  font-weight: bold;
-  margin-left: 40px;
+.secondary-title{
+  @apply text-3xl font-bold;
 }
 
-.easy-button:hover{
-  background-color: #1d5ed4;
+
+.secondary-title::before{
+  content: "";
+  @apply block w-12 h-2 bg-theme rounded-full mb-1;
+}
+
+.section-paragraph{
+  @apply text-secondary my-6 w-full max-w-3xl;
+}
+
+.badge{
+  @apply px-4 py-2 text-sm bg-badge
 }
